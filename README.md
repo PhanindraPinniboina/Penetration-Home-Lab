@@ -8,7 +8,7 @@ This repository documents the step-by-step architecture setup, tool integration,
 ### 1. Lab Environment Setup & Architecture
 1. [Install VirtualBox and Enable Virtualization on the Host](https://github.com/PhanindraPinniboina/Penetration-Home-Lab/blob/51ddc2dee05e46657f5317c22297cfafe4067875/Install%20VirtualBox.md)
 2. [Isolated Network Topologies & Routing Configurations](https://github.com/PhanindraPinniboina/Penetration-Home-Lab/blob/93a068d275cb4c0579205113416104d8c7ea35b8/Network%20Setup.md)
-3. [Post-Installation & System Hardening]
+3. [Post-Installation & System Hardening](https://github.com/PhanindraPinniboina/Penetration-Home-Lab/blob/3c1d2d93f0088773456a742014100283ce98ccc0/OS%20Updates.md)
 4. Install Kali Linux
 5. Install Windows 10 as a vulnerable victim
 6. Install Metasploitable 2
