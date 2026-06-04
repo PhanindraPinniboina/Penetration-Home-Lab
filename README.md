@@ -20,3 +20,8 @@ This repository documents the step-by-step architecture setup, tool integration,
 1. Network Reconnaissance & Port Scanning (Nmap)
 2. Vulnerability Assessment & Patch Verification (Nessus)
 3. Exploitation & Weaponization Frameworks (Metasploit)
+
+### 4. Active Exploit Write-ups & Scenarios
+1. Linux Service Exploitation (Metasploitable 2 vsftpd/Samba)
+2. Windows 10 Host Assessment & Privilege Escalation
+3. Android Mobile Application & Debug Port Exploitation
