@@ -15,3 +15,8 @@ This repository documents the step-by-step architecture setup, tool integration,
 2. Install Windows 10 as a vulnerable victim
 3. Install Metasploitable 2
 4. Install Genymotion virtual Android Mobile  
+
+### 3. Penetration Testing Tools & Methodologies
+1. Network Reconnaissance & Port Scanning (Nmap)
+2. Vulnerability Assessment & Patch Verification (Nessus)
+3. Exploitation & Weaponization Frameworks (Metasploit)
