@@ -11,7 +11,7 @@ This repository documents the step-by-step architecture setup, tool integration,
 3. [Post-Installation & System Hardening](https://github.com/PhanindraPinniboina/Penetration-Home-Lab/blob/3c1d2d93f0088773456a742014100283ce98ccc0/OS%20Updates.md)
 
 ### 2. Endpoint Deployment Guides
-5. Install Kali Linux
-6. Install Windows 10 as a vulnerable victim
-7. Install Metasploitable 2
-8. Install Genymotion virtual Android Mobile  
+1. Install Kali Linux
+2. Install Windows 10 as a vulnerable victim
+3. Install Metasploitable 2
+4. Install Genymotion virtual Android Mobile  
