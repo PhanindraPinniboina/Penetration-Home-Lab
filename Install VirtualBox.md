@@ -1,9 +1,7 @@
-# Enabling Virtualization and Installing VirtualBox on Windows 10/11
+# Enabling Virtualization and Installing VirtualBox on Windows 11
 
 ## Project Overview
-This guide covers the prerequisite steps required to build a cybersecurity home lab. We will enable hardware virtualization in Windows, verify it, and install Oracle VM VirtualBox to host our guest operating systems (Kali Linux and Windows 10).
-
----
+This guide covers the prerequisites for building a cybersecurity home lab. We will enable hardware virtualization in Windows, verify it, and install Oracle VM VirtualBox to host our guest operating systems (Kali Linux and Windows 10).
 
 ## Step 1: Verify & Enable Hardware Virtualization
 
@@ -16,24 +14,20 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
    * *If it says **Enabled**, you can skip to Step 2.*
    * *If it says **Disabled**, proceed below.*
 
-### 2. Enable via Windows Features (Optional but Recommended)
+### 2. Enable via Windows Features
 1. Press the Windows Key, type `Turn Windows features on or off`, and press Enter.
 2. Ensure **Virtual Machine Platform** and **Windows Hypervisor Platform** are checked if you plan to run nested virtualization, or leave them unchecked if you face VirtualBox conflicts.
 
 **Note on Hyper-V:** VirtualBox can sometimes clash with Windows Hyper-V. If you experience performance issues or "VT-x is not available" errors later, you may need to disable Hyper-V in this menu.
 
-### 3. Enable via BIOS/UEFI (If Disabled)
+### 3. If Disabled, Enable via BIOS/UEFI 
 1. Restart your PC and tap the BIOS key repeatedly (usually `F2`, `F10`, `F12`, or `Del`).
 2. Navigate to the **Advanced**, **Processor**, or **Configuration** tab.
 3. Locate the setting named **Intel Virtualization Technology (VT-x)** or **AMD-V / SVM Mode**.
 4. Change the setting to **Enabled**.
 5. Save changes and exit (usually `F10`).
 
----
-
 ## Step 2: Download and Install VirtualBox
-
-
 
 ### 1. Download the Installer
 1. Navigate to the official [VirtualBox Downloads page](https://www.virtualbox.org/wiki/Downloads).
@@ -51,7 +45,6 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
 2. Go to **File** > **Tools** > **Extension Pack Manager** (or double-click the downloaded Extension Pack file).
 3. Click **Install**, scroll to the bottom of the license agreement, and click **I Agree**.
 
----
 
 ## Step 3: Verification
 
