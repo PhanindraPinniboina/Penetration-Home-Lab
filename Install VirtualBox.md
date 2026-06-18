@@ -14,6 +14,8 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
    * *If it says **Enabled**, you can skip to Step 2.*
    * *If it says **Disabled**, proceed below.*
 
+![Task Manager CPU Status](Images/Task.png)
+
 ### 2. Enable via Windows Features
 1. Press the Windows Key, type `Turn Windows features on or off`, and press Enter.
 2. Ensure **Virtual Machine Platform** and **Windows Hypervisor Platform** are checked if you plan to run nested virtualization, or leave them unchecked if you face VirtualBox conflicts.
