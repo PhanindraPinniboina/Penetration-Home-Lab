@@ -1,11 +1,11 @@
-# Guide: Enabling Virtualization and Installing VirtualBox on Windows 10/11
+# Enabling Virtualization and Installing VirtualBox on Windows 10/11
 
-## 📌 Project Overview
+## Project Overview
 This guide covers the prerequisite steps required to build a cybersecurity home lab. We will enable hardware virtualization in Windows, verify it, and install Oracle VM VirtualBox to host our guest operating systems (Kali Linux and Windows 10).
 
 ---
 
-## 🛠️ Step 1: Verify & Enable Hardware Virtualization
+## Step 1: Verify & Enable Hardware Virtualization
 
 Before installing VirtualBox, your computer's CPU must have virtualization enabled in the system BIOS/UEFI.
 
@@ -20,7 +20,7 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
 1. Press the Windows Key, type `Turn Windows features on or off`, and press Enter.
 2. Ensure **Virtual Machine Platform** and **Windows Hypervisor Platform** are checked if you plan to run nested virtualization, or leave them unchecked if you face VirtualBox conflicts.
 
-> ⚠️ **Note on Hyper-V:** VirtualBox can sometimes clash with Windows Hyper-V. If you experience performance issues or "VT-x is not available" errors later, you may need to disable Hyper-V in this menu.
+**Note on Hyper-V:** VirtualBox can sometimes clash with Windows Hyper-V. If you experience performance issues or "VT-x is not available" errors later, you may need to disable Hyper-V in this menu.
 
 ### 3. Enable via BIOS/UEFI (If Disabled)
 1. Restart your PC and tap the BIOS key repeatedly (usually `F2`, `F10`, `F12`, or `Del`).
@@ -31,7 +31,7 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
 
 ---
 
-## 💾 Step 2: Download and Install VirtualBox
+## Step 2: Download and Install VirtualBox
 
 
 
@@ -53,18 +53,18 @@ Before installing VirtualBox, your computer's CPU must have virtualization enabl
 
 ---
 
-## ✅ Step 3: Verification
+## Step 3: Verification
 
 To verify everything is working smoothly:
 1. Open VirtualBox.
 2. Click **New** to create a mock virtual machine.
 3. In the **Version** dropdown, verify that you can see **64-bit** operating system options (e.g., *Ubuntu (64-bit)*, *Windows 10 (64-bit)*).
 
-> 💡 **Troubleshooting:** If you only see 32-bit options, it means hardware virtualization is either disabled in your BIOS or Hyper-V is blocking VirtualBox from accessing the CPU features.
+**Troubleshooting:** If you only see 32-bit options, it means hardware virtualization is either disabled in your BIOS or Hyper-V is blocking VirtualBox from accessing the CPU features.
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 Now that your hypervisor is ready, the next step is provisioning the lab environment:
 * [Link to Kali Linux Installation Guide](./kali-installation.md)
 * [Link to Windows 10 Target Lab Guide](./win10-setup.md)
